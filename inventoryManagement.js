@@ -18,4 +18,9 @@ function removeLastProduct (){
     products.pop();
 }   
 
-
+module.exports = {
+  products,
+  logFirstProduct,
+  updateProductName,
+  removeLastProduct
+};
